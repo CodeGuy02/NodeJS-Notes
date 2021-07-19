@@ -1,0 +1,42 @@
+.table {
+    display: table;
+    height: 85%;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 0px;
+    border-spacing: 40px;   /* spacing between rows */
+    /* border: 2px solid; */
+}
+.row {
+    display: table-row;
+    padding: 20px 20px;
+    border: 2px solid;
+
+}
+.cell{
+    display: table-cell;
+    border-radius: 12px;
+    background-image: linear-gradient(green, whitesmoke);
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black;
+    text-align: left;
+    vertical-align: middle;
+    font-family: monospace;
+    border: 2px solid white;
+    padding: 20px 20px;
+}
+
+body {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-image: linear-gradient(green, darkgreen); 
+    font-family: sans-serif;
+    color:whitesmoke;
+}
+
+h1 {
+    text-shadow: 2px 2px 5px black;
+}
