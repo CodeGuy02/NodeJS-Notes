@@ -1,0 +1,51 @@
+<HTML>
+
+<HEAD>
+
+    <TITLE>
+        Node.js Notes
+    </TITLE>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='style.css'>
+
+
+</HEAD>
+
+<BODY>
+    <h1> Node.js - notes </h1>
+    <div class='table'>
+        <div class='row'>
+            <div class='cell'>
+                <p> Source Code: lib/events.js
+
+Much of the Node.js core API is built around an idiomatic asynchronous event-driven architecture in which certain kinds of objects (called "emitters") emit named events that cause Function objects ("listeners") to be called.
+
+For instance: a net.Server object emits an event each time a peer connects to it; a fs.ReadStream emits an event when the file is opened; a stream emits an event whenever data is available to be read.
+
+All objects that emit events are instances of the EventEmitter class. These objects expose an eventEmitter.on() function that allows one or more functions to be attached to named events emitted by the object.  </p>
+        <a href="https://nodejs.org/api/events.html#events_class_eventemitter"> Nodejs.org article on lib/events.js</a>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='cell'>
+                <p> Source Code: lib/process.js
+
+The process object provides information about, and control over, the current Node.js process. While it is available as a global, it is recommended to explicitly access it via require or import:
+
+import process from 'process';
+Process events#
+The process object is an instance of EventEmitter</p>
+            <a href="https://nodejs.org/api/process.html#process_process"> NodeJS.org - lib/process.js </a>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='cell'>
+                <p> Testing this text area. </p>
+            </div>
+        </div>
+    </div>
+</BODY>
+
+
+
+</HTML>
